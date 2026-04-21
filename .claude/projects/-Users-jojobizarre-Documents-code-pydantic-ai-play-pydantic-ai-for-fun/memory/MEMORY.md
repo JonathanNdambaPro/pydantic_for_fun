@@ -1,0 +1,2 @@
+- [Structure des fichiers exemples](feedback_file_structure.md) — Convention pour générer les fichiers d'exemples Pydantic AI (imports, boilerplate, docstring FR, parties numérotées, démos)
+- [Structure des dossiers exemples](feedback_folder_structure.md) — Toujours créer les fichiers dans leur dossier numéroté (N_concept/N_concept.py), pas à la racine
