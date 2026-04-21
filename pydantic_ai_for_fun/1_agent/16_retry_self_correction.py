@@ -73,7 +73,7 @@ async def chercher_produit(ctx: RunContext, nom_produit: str) -> str:
     logger.info(f"Tentative {ctx.retry + 1} : recherche de '{nom_produit}'")
 
     # Recherche exacte
-    produit = CATALOGUE.get(nom_produit)
+    produit = CATALOGUE.get(nom_produit) 
     if produit is not None:
         dispo = "en stock" if produit["stock"] > 0 else "rupture de stock"
         logger.success(f"Produit trouvé : {nom_produit} — {produit['prix']}€ — {dispo}")

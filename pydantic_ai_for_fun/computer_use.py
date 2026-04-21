@@ -72,6 +72,7 @@ agent = Agent(
     deps_type=BrowserDeps,
     output_type=TaskResult,
     retries=5,
+    defer_model_tools=True,
 )
 
 
